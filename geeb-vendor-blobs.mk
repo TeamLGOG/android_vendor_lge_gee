@@ -79,7 +79,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geeb/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
     vendor/lge/geeb/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/lge/geeb/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
-    vendor/lge/geeb/proprietary/lib/hw/camera.mako.so:system/lib/hw/camera.mako.so \
+    vendor/lge/geeb/proprietary/lib/hw/camera.geeb.so:system/lib/hw/camera.geeb.so \
     vendor/lge/geeb/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
     vendor/lge/geeb/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/lge/geeb/proprietary/lib/libAKM.so:system/lib/libAKM.so \
@@ -179,12 +179,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geeb/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
     vendor/lge/geeb/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/lge/geeb/proprietary/lib/lib_dlb_msd.so:system/lib/lib_dlb_msd.so \
-    vendor/lge/geeb/proprietary/vendor/firmware/bcm2079x_firmware.ncd:system/vendor/firmware/bcm2079x_firmware.ncd \
-    vendor/lge/geeb/proprietary/vendor/firmware/bcm2079x_pre_firmware.ncd:system/vendor/firmware/bcm2079x_pre_firmware.ncd \
+    vendor/lge/geeb/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
     vendor/lge/geeb/proprietary/vendor/firmware/discretix/dxhdcp2.b00:system/vendor/firmware/discretix/dxhdcp2.b00 \
     vendor/lge/geeb/proprietary/vendor/firmware/discretix/dxhdcp2.b01:system/vendor/firmware/discretix/dxhdcp2.b01 \
     vendor/lge/geeb/proprietary/vendor/firmware/discretix/dxhdcp2.b02:system/vendor/firmware/discretix/dxhdcp2.b02 \
     vendor/lge/geeb/proprietary/vendor/firmware/discretix/dxhdcp2.b03:system/vendor/firmware/discretix/dxhdcp2.b03 \
     vendor/lge/geeb/proprietary/vendor/firmware/discretix/dxhdcp2.mdt:system/vendor/firmware/discretix/dxhdcp2.mdt \
-    vendor/lge/geeb/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
     vendor/lge/geeb/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so
