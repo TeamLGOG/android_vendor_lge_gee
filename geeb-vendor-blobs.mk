@@ -54,6 +54,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geeb/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
     vendor/lge/geeb/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
     vendor/lge/geeb/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
+    vendor/lge/geeb/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
+    vendor/lge/geeb/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
+    vendor/lge/geeb/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
+    vendor/lge/geeb/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
+    vendor/lge/geeb/proprietary/etc/firmware/wcnss.b05:system/etc/firmware/wcnss.b05 \
+    vendor/lge/geeb/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
     vendor/lge/geeb/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/lge/geeb/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/lge/geeb/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
@@ -73,6 +79,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geeb/proprietary/lib/egl/libplayback_adreno200.so:system/lib/egl/libplayback_adreno200.so \
     vendor/lge/geeb/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/lge/geeb/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
+    vendor/lge/geeb/proprietary/lib/hw/camera.mako.so:system/lib/hw/camera.mako.so \
+    vendor/lge/geeb/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
     vendor/lge/geeb/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/lge/geeb/proprietary/lib/libAKM.so:system/lib/libAKM.so \
     vendor/lge/geeb/proprietary/lib/libalsautils.so:system/lib/libalsautils.so \
@@ -141,6 +149,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geeb/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/lge/geeb/proprietary/lib/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so \
     vendor/lge/geeb/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
+    vendor/lge/geeb/proprietary/lib/libnfc.so:system/lib/libnfc.so \
+    vendor/lge/geeb/proprietary/lib/libnfc_jni.so:system/lib/libnfc_jni.so \
     vendor/lge/geeb/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/lge/geeb/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
     vendor/lge/geeb/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
@@ -176,12 +186,5 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geeb/proprietary/vendor/firmware/discretix/dxhdcp2.b02:system/vendor/firmware/discretix/dxhdcp2.b02 \
     vendor/lge/geeb/proprietary/vendor/firmware/discretix/dxhdcp2.b03:system/vendor/firmware/discretix/dxhdcp2.b03 \
     vendor/lge/geeb/proprietary/vendor/firmware/discretix/dxhdcp2.mdt:system/vendor/firmware/discretix/dxhdcp2.mdt \
-    vendor/lge/geeb/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
-    vendor/lge/geeb/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
-    vendor/lge/geeb/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
-    vendor/lge/geeb/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
-    vendor/lge/geeb/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
-    vendor/lge/geeb/proprietary/etc/firmware/wcnss.b05:system/etc/firmware/wcnss.b05 \
-    vendor/lge/geeb/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt
-
-
+    vendor/lge/geeb/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
+    vendor/lge/geeb/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so
