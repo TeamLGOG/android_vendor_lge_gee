@@ -45,12 +45,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/etc/firmware/tzapps.b02:system/etc/firmware/tzapps.b02 \
     vendor/lge/gee/proprietary/etc/firmware/tzapps.b03:system/etc/firmware/tzapps.b03 \
     vendor/lge/gee/proprietary/etc/firmware/tzapps.mdt:system/etc/firmware/tzapps.mdt \
-    vendor/lge/gee/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
-    vendor/lge/gee/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
-    vendor/lge/gee/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
-    vendor/lge/gee/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
-    vendor/lge/gee/proprietary/etc/firmware/wcnss.b05:system/etc/firmware/wcnss.b05 \
-    vendor/lge/gee/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
     vendor/lge/gee/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
     vendor/lge/gee/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
     vendor/lge/gee/proprietary/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
@@ -64,7 +58,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/lge/gee/proprietary/lib/hw/gps.msm8960.so:system/lib/hw/gps.msm8960.so \
     vendor/lge/gee/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
-    vendor/lge/gee/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
     vendor/lge/gee/proprietary/lib/libacdbdata.so:system/lib/libacdbdata.so \
     vendor/lge/gee/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/lge/gee/proprietary/lib/libAKM.so:system/lib/libAKM.so \
@@ -73,10 +66,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
     vendor/lge/gee/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
     vendor/lge/gee/proprietary/lib/libcamera_fast_af.so:system/lib/libcamera_fast_af.so \
-    vendor/lge/gee/proprietary/lib/libchromatix_imx091_default_video.so:system/lib/libchromatix_imx091_default_video.so \
-    vendor/lge/gee/proprietary/lib/libchromatix_imx091_preview.so:system/lib/libchromatix_imx091_preview.so \
-    vendor/lge/gee/proprietary/lib/libchromatix_imx091_video_hd.so:system/lib/libchromatix_imx091_video_hd.so \
-    vendor/lge/gee/proprietary/lib/libchromatix_imx091_zsl.so:system/lib/libchromatix_imx091_zsl.so \
     vendor/lge/gee/proprietary/lib/libchromatix_imx111_default_video.so:system/lib/libchromatix_imx111_default_video.so \
     vendor/lge/gee/proprietary/lib/libchromatix_imx111_preview.so:system/lib/libchromatix_imx111_preview.so \
     vendor/lge/gee/proprietary/lib/libchromatix_imx111_zsl.so:system/lib/libchromatix_imx111_zsl.so \
@@ -176,4 +165,15 @@ PRODUCT_COPY_FILES += \
     vendor/lge/gee/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/lge/gee/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/lge/gee/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-    vendor/lge/gee/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so
+    vendor/lge/gee/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/lge/gee/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
+    vendor/lge/gee/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
+    vendor/lge/gee/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
+    vendor/lge/gee/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
+    vendor/lge/gee/proprietary/etc/firmware/wcnss.b05:system/etc/firmware/wcnss.b05 \
+    vendor/lge/gee/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
+    vendor/lge/gee/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
+    vendor/lge/gee/proprietary/lib/libchromatix_imx091_default_video.so:system/lib/libchromatix_imx091_default_video.so \
+    vendor/lge/gee/proprietary/lib/libchromatix_imx091_preview.so:system/lib/libchromatix_imx091_preview.so \
+    vendor/lge/gee/proprietary/lib/libchromatix_imx091_video_hd.so:system/lib/libchromatix_imx091_video_hd.so \
+    vendor/lge/gee/proprietary/lib/libchromatix_imx091_zsl.so:system/lib/libchromatix_imx091_zsl.so
